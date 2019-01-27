@@ -21,8 +21,6 @@
 			$characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 			$charactersLength = strlen($characters);
 			for($i = 0; $i < $quantity; $i++){
-				/*$characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    			$charactersLength = strlen($characters);*/
     			$randomString = '';
     			for ($j = 0; $j < $length; $j++) {
         			$randomString .= $characters[rand(0, $charactersLength - 1)];
