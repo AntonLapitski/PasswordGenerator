@@ -1,0 +1,11 @@
+{
+    "name": "password-generator",
+    "description": "It's a password-generator program",
+    "authors": [
+        {
+            "name": "Anton Lapitski",
+            "email": "a.lapitski.developer@gmail.com"
+        }
+    ],
+    "require": {}
+}
